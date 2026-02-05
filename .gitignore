@@ -1,6 +1,21 @@
-venv
-__pycache__
-chroma_db
-filings
-._*
+# Environment
+venv/
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data & Filings (Local)
+data/
+sec_edgar_filings/
+10-K/
+10-Q/
+filings/
+
+# OS
+.DS_Store
+._*
+Desktop.ini
